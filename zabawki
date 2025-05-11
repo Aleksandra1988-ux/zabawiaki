@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zabawiaki – Liga Sprawiedliwych</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(145deg, #ff0000, #cc0000);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      text-shadow: 2px 2px 5px #000;
+      font-size: 2.5rem;
+      font-weight: bold;
+      box-shadow: 0 0 10px red;
+    }
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-top: 2rem;
+      color: #444;
+      text-shadow: 1px 1px 2px #bbb;
+    }
+    section {
+      padding: 2rem;
+      border-bottom: 1px solid #eee;
+    }
+    .highlight {
+      font-size: 1.5rem;
+      color: #d10000;
+      font-weight: bold;
+      text-shadow: 1px 1px 3px gold;
+    }
+    .button {
+      display: inline-block;
+      background: gold;
+      color: #000;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px orange;
+      margin-top: 1rem;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Liga Sprawiedliwych – Zabawiaki<br>
+    <span style="font-size: 1.2rem; font-weight: normal;">Na straży Dobra i Nadziei</span>
+  </header>
+
+  <section>
+    <h2 class="highlight">Pomagamy z sercem. Każdy kilometr to nadzieja.</h2>
+    <p style="text-align: center;">Biegniemy dla chorego chłopca – każdy przebyty metr ma znaczenie! Dołącz do nas i pokaż, że dobro ma moc!</p>
+  </section>
+
+  <section>
+    <h2 style="color: green; text-shadow: 1px 1px 3px #0f0;">Pomoc dla domów dziecka</h2>
+    <p>Zapewniamy wsparcie, ciepło i prezenty dzieciom w potrzebie. Bo każde dziecko zasługuje na uśmiech.</p>
+  </section>
+
+  <section>
+    <h2 style="color: blue; text-shadow: 1px 1px 3px #00f;">Wsparcie dla seniorów</h2>
+    <p>Odwiedzamy seniorów, pomagamy w codziennych obowiązkach i przywracamy nadzieję na lepsze jutro.</p>
+  </section>
+
+  <section>
+    <h2 style="color: navy; text-shadow: 1px 1px 3px #88f;">Pomoc w kataklizmach i szkołach</h2>
+    <p>Reagujemy natychmiast, gdy potrzeba wsparcia – powodzie, szkoły w potrzebie, rodziny w kryzysie – jesteśmy tam, gdzie trzeba!</p>
+  </section>
+
+  <section>
+    <h2 style="color: red; text-shadow: 1px 1px 4px gold;">Wesprzyj nas!</h2>
+    <p>Twoje wsparcie trafia bezpośrednio do potrzebujących – dzieci, seniorów, ofiar katastrof. Wspierasz także rozwój naszej fundacji i realizację naszej misji w całej Polsce.</p>
+    <div style="text-align: center;">
+      <a class="button" href="#">Wpłać teraz</a>
+    </div>
+  </section>
+
+  <footer>
+    Kontakt: kontakt@zabawiaki.pl | tel. 123 456 789<br>
+    Chcesz zostać wolontariuszem? Zadzwoń do nas! Twoje serce jest nam potrzebne ❤️
+  </footer>
+</body>
+</html>
